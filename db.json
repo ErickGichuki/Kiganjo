@@ -1,0 +1,25 @@
+{
+  "prayers": [
+    {
+      "name": " Gichuki",
+      "number": "213 ",
+      "email": " gichuki@admin.com",
+      "prayerRequest": "Wisdom is my greatest prayer",
+      "id": "50ed"
+    },
+    {
+      "id": "0ad7",
+      "name": "Eric",
+      "number": "0713207187",
+      "email": "gichukierick2@gmail.com",
+      "prayerRequest": "I would wish to be remembered in prayers am not feeling well"
+    },
+    {
+      "id": "3d63",
+      "name": "Eric",
+      "number": "0713207187",
+      "email": "gichukierick2@gmail.com",
+      "prayerRequest": "confession"
+    }
+  ]
+}

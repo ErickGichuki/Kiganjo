@@ -1,0 +1,166 @@
+.App{
+  background-color: #fefefe;
+  height: 100vh;
+  width: 100%;
+}
+tbody #hymnstr:hover{
+  background-color: #ccc;
+  cursor: pointer;
+}
+#hymnsTable th, #hymnsTable td{
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+#hymnsTable{
+  width: 95%;
+  border-collapse: collapse;
+  margin-left: 29px;
+}
+#beliefTable,th, #beliefsTable td{
+border: 1px solid #ccc;
+padding: 11px;
+}
+#beliefsTable{
+  border-collapse: collapse;
+}
+#yout{
+  background-color: #ff0000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+#yout a{
+  color: white;
+  text-decoration: none;
+}
+#tweet{
+  border-radius: 5px;
+  color: white;
+  background-color:#1da1f2 ;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+#fb{
+  border-radius: 9px;
+  background-color: #3b5998;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+#prayer_Container{
+  background-image: url('https://media.istockphoto.com/id/1484095487/photo/hand-praying-on-orange-light-bokeh-background.webp?b=1&s=170667a&w=0&k=20&c=e3ITr3bCv_V8jZi_nSCCC9MVBVzm4fXQvlA3AJ3osKA=');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content:center;
+}
+#about_container{
+  line-height: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#bottomnav_about a{
+  text-decoration: none;
+  margin-left:10px ;
+  color: white;
+}
+#bottomnav_about{
+  margin-top: 15px;
+  background-color: rgb(36, 36, 119);
+  color: white;
+}
+#aboutus{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+#homecontainer{
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #b3bfc7;
+}
+form {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 90%;
+}
+h3{
+  margin: 10px;
+  text-align: center;
+  color: hwb(307 4% 14%);
+}
+h6{
+  padding: 2px;
+  text-align: center;
+  margin: 0px;
+  color: #333;
+}
+
+input[type='text'],
+input[type='tel'],
+input[type='email'],
+textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+textarea{
+  height: 100px;
+  resize: vertical;
+}
+#prayer{
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+#prayer:hover {
+  background-color: #45a049;
+}
+#prayer:disabled{
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+#prayer:focus{
+  outline: none;
+}
+#h4home{
+  margin: 10px 0;
+  color: #333;
+}
+p{
+  margin: 5px 0;
+  line-height: 1.5;
+}
+img{
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+#ulhome{
+  padding: 0;
+}
+#lihome{
+  margin-bottom: 10px;
+}
