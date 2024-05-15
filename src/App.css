@@ -159,52 +159,74 @@ img{
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  background-image: url('https://images.unsplash.com/photo-1515162305285-0293e4767cc2?w=1400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2h1cmNofGVufDB8fDB8fHww');
+  background-color: #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .church-title {
   text-align: center;
-  font-size: 28px;
-  margin-bottom: 10px;
-  color: rgb(38, 38, 31);
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
 }
 .welcome-message {
   text-align: center;
-  margin-bottom: 20px;
-  color: rgb(30, 30, 226);
+  margin-bottom: 30px;
+  color: #1e1e1e;
 }
 .section-title {
-  margin-bottom: 15px;
-  color: blue;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
   
 }
 .programme{
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 .sub-programme{
-  margin-left: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#links-section{
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#links-section:hover{
+  transform: scale(0.9);
 }
 #links-section a{
   display: block;
   text-decoration: none;
   margin-bottom: 5px;
-}
-#links-section{
-  border: 1px solid #333;
-  padding: 10px;
-  border-radius: 10px;
-  transition: transform 0.3s;
-}
-#links-section:hover{
-  transform: translateY(-10px);
+text-align: center;
 }
 #divine,
 #sabbathintro,
 .sub-programme,
 #fellowship
 {
-  transition: transform 0.3s;
-  border: 1px solid #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0 0.1);
   border-radius: 10px;
   margin: 9px 0px 9px 0;
   padding: 5px;
+}
+#fellowship:hover{
+  transform: scale(0.9);
+}
+#sabbathintro:hover{
+  transform: scale(0.9);
+}
+.sub-programme:hover{
+  transform: scale(.9);
 }

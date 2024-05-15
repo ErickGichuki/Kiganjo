@@ -4,7 +4,7 @@ function Home() {
   return (
     <div className='home-container'>
       <h2 className='church-title'>SDA KIGANJO CHURCH</h2>
-      <p className='welcome-message'>Are you looking for a church? Welcome to our church, we love visitors</p>
+      <p style={{color:'blue'}} className='welcome-message'>Are you looking for a church? Welcome to our church, we love visitors</p>
       <div>
         <img style={{borderRadius:'10px'}} src="https://media.istockphoto.com/id/183778654/photo/singing-hymns.webp?b=1&s=170667a&w=0&k=20&c=2oBCmRwKz1BZx9I-4X7E8eO5UsDrY_PDqrxt-RzKmas=" alt="introimg" />
       </div>
@@ -49,7 +49,7 @@ function Home() {
       </section>
 
       <section id='links-section'>
-        <h3 className='section-title'>Useful Links</h3>
+        <h3 style={{color:'blue'}} className='section-title'>Useful Links</h3>
         <div id='lessonlinks'>
         <p><a id='english-version' href='https://www.sabbath.school/' target='_blank'>English Lesson</a></p>
         <p><a id='swahili' href='https://www.fustero.es/index_sw.php' target='_blank'>Swahili Lesson</a></p>
