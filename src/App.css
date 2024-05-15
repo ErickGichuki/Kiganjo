@@ -60,6 +60,9 @@ tbody #hymnstr:hover{
   line-height: 20px;
   margin-left: 5px;
   margin-right: 5px;
+  background-color: rgb(232, 232, 224);
+  border: 1px solid #f2f2f2;
+  border-radius: 50px 0 0 40px;
 }
 #bottomnav_about a{
   text-decoration: none;
@@ -71,8 +74,9 @@ tbody #hymnstr:hover{
   color: white;
 }
 #aboutus{
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 0%;
 }
 
 form {
@@ -111,7 +115,7 @@ textarea{
   resize: vertical;
 }
 #prayer{
-  width: 100%;
+  width: 95%;
   background-color: #4caf50;
   color: white;
   padding: 14px 20px;
@@ -161,13 +165,16 @@ img{
   text-align: center;
   font-size: 28px;
   margin-bottom: 10px;
+  color: rgb(38, 38, 31);
 }
 .welcome-message {
   text-align: center;
   margin-bottom: 20px;
+  color: rgb(30, 30, 226);
 }
 .section-title {
   margin-bottom: 15px;
+  color: blue;
   
 }
 .programme{
@@ -200,12 +207,4 @@ img{
   border-radius: 10px;
   margin: 9px 0px 9px 0;
   padding: 5px;
-}
-#divine,
-#sabathintro,
-.sub-programme,
-#fellowship
-:hover{
-  transform: translateY(-10px);
-
 }
