@@ -22,6 +22,10 @@ function Hymns() {
     setSelectedHymn(hymn);
   };
 
+  const goBack =() =>{
+    setSelectedHymn(null);
+  }
+
   return (
     <>
  
@@ -45,7 +49,6 @@ function Hymns() {
               <td>{hymn.number}</td>
               <td onClick={()=>displayLyrics(hymn)}>{hymn.title}</td>
               <td>{hymn.key}</td>
-
             </tr>
           ))
       }

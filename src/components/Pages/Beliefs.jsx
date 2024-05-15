@@ -17,39 +17,24 @@ function Beliefs() {
     });
   },[]);
 
-    function handleClick() {
-     console.log('clicked the title of the song')
-    }
   return (
-    <>
+    <div>
     <h3 style={{margin:'10px', color:'blue'}}>Official Beliefs of the seventh-day Adventist Church</h3>
     {
       loading ? (
         <p style={{color:'green'}}>Loading...</p>
       ): (
-     <table id='beliefsTable' style={{margin:'20px',background:'white'}}>
-      <thead >
-        <tr style={{color:'green'}}>
-          <th>Number</th>
-          <th>Title</th>
-          <th>Brief Explanation</th>
-        </tr>
-      </thead>
-      <tbody>
-      {beliefs.map((belief, index) => {
-        return (
-          <tr key={index}>
-            <td>{belief.number}</td>
-            <td onClick={() => handleClick()}>{belief.title}</td>
-            <td>{belief.content}</td>
-          </tr>
-
-      );
-      })}
-      </tbody>
-     </table>
+     <div style={{margin:'20px',background:'white',padding:'20px'}}>
+      {beliefs.map((belief, index) => (
+        <div key={index} style={{marginBottom:'20px'}}>
+          <p><strong>Number:</strong>{belief.number}</p>
+          <h4>{belief.title}</h4>
+          <p style={{border:'1px solid #ccc', borderRadius:'8px',padding:'15px', background:'#f2f2f2'}}>{belief.content}</p>
+        </div>
+      ))}
+     </div>
     )}
-    </>
+    </div>
   )
 }
 

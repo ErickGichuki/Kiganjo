@@ -37,15 +37,7 @@ function About() {
       </div>
       </div>
 
-      <div id='bottomnav_about'>
-        <h5 style={{textAlign:'center'}}>Kiganjo SDA Church</h5>
-        <div><a href='#'>Facebook</a></div>
-        <div><a href='#'>Twitter</a></div>
-        <div><a href='#'>Instagram</a></div>
-        <div><a href='#'>Email</a></div>
-        <p style={{marginLeft:'10px'}}>&copy; 2024 Kiganjo SDA Church</p>
-        <p style={{marginLeft:'10px'}}>Njabini Road. Opp Kiganjo secondary School Olkalou</p>
-      </div>
+     
       </div>
     </>
   )

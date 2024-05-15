@@ -12,17 +12,11 @@ tbody #hymnstr:hover{
   padding: 10px;
 }
 #hymnsTable{
-  width: 95%;
+  width: 90%;
   border-collapse: collapse;
-  margin-left: 29px;
+  margin-left: 20px;
 }
-#beliefTable,th, #beliefsTable td{
-border: 1px solid #ccc;
-padding: 11px;
-}
-#beliefsTable{
-  border-collapse: collapse;
-}
+
 #yout{
   background-color: #ff0000;
   color: white;
@@ -73,7 +67,6 @@ padding: 11px;
   color: white;
 }
 #bottomnav_about{
-  margin-top: 15px;
   background-color: rgb(36, 36, 119);
   color: white;
 }
@@ -81,12 +74,7 @@ padding: 11px;
   margin-left: 15%;
   margin-right: 15%;
 }
-#homecontainer{
-  margin: 0 auto;
-  max-width: 800px;
-  padding: 20px;
-  background-color: #b3bfc7;
-}
+
 form {
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -100,7 +88,6 @@ form {
 h3{
   margin: 10px;
   text-align: center;
-  color: hwb(307 4% 14%);
 }
 h6{
   padding: 2px;
@@ -163,4 +150,62 @@ img{
 }
 #lihome{
   margin-bottom: 10px;
+}
+.home-container{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url('https://images.unsplash.com/photo-1515162305285-0293e4767cc2?w=1400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2h1cmNofGVufDB8fDB8fHww');
+}
+.church-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.welcome-message {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.section-title {
+  margin-bottom: 15px;
+  
+}
+.programme{
+  margin-bottom: 20px;
+}
+.sub-programme{
+  margin-left: 20px;
+}
+#links-section a{
+  display: block;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+#links-section{
+  border: 1px solid #333;
+  padding: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+#links-section:hover{
+  transform: translateY(-10px);
+}
+#divine,
+#sabbathintro,
+.sub-programme,
+#fellowship
+{
+  transition: transform 0.3s;
+  border: 1px solid #333;
+  border-radius: 10px;
+  margin: 9px 0px 9px 0;
+  padding: 5px;
+}
+#divine,
+#sabathintro,
+.sub-programme,
+#fellowship
+:hover{
+  transform: translateY(-10px);
+
 }
