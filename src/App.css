@@ -11,6 +11,9 @@ tbody #hymnstr:hover{
   border: 1px solid #ddd;
   padding: 10px;
 }
+#hymnsTable th {
+  background-color: #f4f4f4;
+}
 #hymnsTable{
   width: 90%;
   border-collapse: collapse;
