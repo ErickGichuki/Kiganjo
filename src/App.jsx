@@ -40,7 +40,7 @@ function App() {
         />
       </Routes>
       <div id='bottomnav_about'>
-        <h5 style={{textAlign:'center',padding:'7px'}}>Kiganjo SDA Church</h5>
+        <h4>Kiganjo SDA Church</h4>
         <div><a href='#'>Facebook</a></div>
         <div><a href='#'>Twitter</a></div>
         <div><a href='#'>Instagram</a></div>

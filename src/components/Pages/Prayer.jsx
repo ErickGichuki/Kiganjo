@@ -47,8 +47,8 @@ function Prayer() {
   return (
     <div id='prayer_Container'>
       <form onSubmit={handleSubmit}>
-        <h3>Sweet hour of prayer</h3>
-        <h4 style={{textAlign:'center'}}>1 John 5:14-15</h4>
+        <h3 id='prayerh3'>Sweet hour of prayer</h3>
+        <h4 id='prayerh4'>1 John 5:14-15</h4>
         <p>And this is the confidence that we have in him, that if we ask any thing according to his will, he heareth us:</p>
         <p>And if we know that he hear us, whatsover we ask, we know that we have the petitions that we desired of him.</p>
         <input 

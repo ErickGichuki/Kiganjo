@@ -16,9 +16,7 @@ tbody #hymnstr:hover{
   border-collapse: collapse;
   margin-left: 20px;
 }
-
-#yout{
-  background-color: #ff0000;
+#yout, #tweet, #fb {
   color: white;
   padding: 10px 20px;
   border: none;
@@ -26,29 +24,22 @@ tbody #hymnstr:hover{
   margin-right: 10px;
   transition: background-color 0.3s;
 }
-#yout a{
+
+#yout {
+  background-color: #ff0000;
+}
+#yout a {
   color: white;
   text-decoration: none;
 }
 #tweet{
-  border-radius: 5px;
-  color: white;
-  background-color:#1da1f2 ;
-  border: none;
-  padding: 10px 20px;
-  margin-right: 10px;
-  transition: background-color 0.3s;
+  background-color: #1da1f2;
 }
+
 #fb{
-  border-radius: 9px;
   background-color: #3b5998;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  margin-right: 10px;
-  transition: background-color 0.3s;
 }
+
 #prayer_Container{
   background-image: url('https://media.istockphoto.com/id/1484095487/photo/hand-praying-on-orange-light-bokeh-background.webp?b=1&s=170667a&w=0&k=20&c=e3ITr3bCv_V8jZi_nSCCC9MVBVzm4fXQvlA3AJ3osKA=');
   background-size: cover;
@@ -56,29 +47,33 @@ tbody #hymnstr:hover{
   display: flex;
   justify-content:center;
 }
-#about_container{
-  line-height: 20px;
-  margin-left: 5px;
-  margin-right: 5px;
-  background-color: rgb(232, 232, 224);
-  border: 1px solid #f2f2f2;
-  border-radius: 50px 0 0 40px;
-}
+
 #bottomnav_about a{
   text-decoration: none;
-  margin-left:10px ;
   color: white;
 }
 #bottomnav_about{
   background-color: rgb(36, 36, 119);
   color: white;
-}
-#aboutus{
-  margin-left: 10%;
-  margin-right: 10%;
-  padding: 0%;
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid #ccc;
+  margin-top: 20px;
 }
 
+#bottomnav_about h4 {
+  padding: 7px;
+}
+#bottomnav_about div {
+  margin: 10px 0;
+}
+#bottomnav_about a:hover{
+  text-decoration: underline;
+}
+
+#bottomnav_about p {
+  margin: 10px;
+}
 form {
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -87,17 +82,6 @@ form {
   padding: 20px;
   margin-top: 20px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  width: 90%;
-}
-h3{
-  margin: 10px;
-  text-align: center;
-}
-h6{
-  padding: 2px;
-  text-align: center;
-  margin: 0px;
-  color: #333;
 }
 
 input[type='text'],
@@ -115,7 +99,7 @@ textarea{
   resize: vertical;
 }
 #prayer{
-  width: 95%;
+  width: 93%;
   background-color: #4caf50;
   color: white;
   padding: 14px 20px;
@@ -180,53 +164,51 @@ img{
   text-align: center;
   
 }
-.programme{
+.programme,
+.sub-programme,
+#divine,
+#sabbathintro,
+#fellowship,
+#links-section
+{
   margin-bottom: 30px;
   background-color: #fff;
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-.sub-programme{
-  margin-bottom: 20px;
-  background-color: #fff;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+#links-section {
+  border: 1px solid #ccc;
 }
 
-#links-section{
-  border: 1px solid #ccc;
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 30px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-#links-section:hover{
+#links-section:hover,
+#fellowship:hover,
+#sabbathintro:hover,
+.sub-programme:hover{
   transform: scale(0.9);
 }
 #links-section a{
   display: block;
   text-decoration: none;
   margin-bottom: 5px;
-text-align: center;
+  text-align: center;
 }
-#divine,
-#sabbathintro,
-.sub-programme,
-#fellowship
-{
-  box-shadow: 0 0 10px rgba(0, 0, 0 0.1);
-  border-radius: 10px;
-  margin: 9px 0px 9px 0;
-  padding: 5px;
+h3,
+h4{
+  text-align: center;
+  padding: 3px;
 }
-#fellowship:hover{
-  transform: scale(0.9);
+#about_container {
+  line-height: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: rgb(232, 232, 224);
+  border: 1px solid #f2f2f2;
+  border-radius: 50px 0 0 40px;
+  padding: 10px;
 }
-#sabbathintro:hover{
-  transform: scale(0.9);
-}
-.sub-programme:hover{
-  transform: scale(.9);
+
+#aboutus {
+  margin-left: 10%;
+  margin-right: 10%;
 }
