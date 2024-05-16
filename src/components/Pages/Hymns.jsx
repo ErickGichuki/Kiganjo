@@ -32,7 +32,13 @@ function Hymns() {
     <h4 style={{textAlign:'center',padding:'10px', color:'blue'}}>Hymns that uplifts</h4>
     {processing ? (
       <p style={{color:'green'}}>Processing...</p>
-    ) :(
+    ) : selectedHymn ? (
+      <div>
+        <h4>{selectedHymn.title}</h4>
+        <p>{selectedHymn.lyrics}</p>
+        <button id='goBack' onClick={goBack}>Go Back</button>
+      </div>
+    ) : (
       
       <table id='hymnsTable'>
         <thead>
