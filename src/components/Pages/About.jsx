@@ -14,7 +14,7 @@ function About() {
         <p>Guided by the Bible and the Holy Spirit, Seventh-day Adventists pursue this mission through Christ-like living, communicating, discipling, teaching, healing, and serving.</p>
       </div>
       <div>
-        <h3>Our Vison</h3>
+        <h3>Our Vision</h3>
         <p>In harmony with Bible revelation, Seventh-day Adventists see as the climax of God’s plan the restoration of all His creation to full harmony with His perfect will and righteousness.</p>
       </div>
       <div>
